@@ -102,6 +102,7 @@ int logIn(char* login, char* password);
 
 > Função que verifica se existe algum usuário com o login inserido;
 Retorna 1 se existir ou -1 se não existir.
+
 ``` c
 char* existsPlayer(char* login);
 ```
