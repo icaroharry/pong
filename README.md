@@ -8,11 +8,13 @@
 
 
 ## Instruções de compilaçãoCom todos o arquivos no mesmo diretório, abra o terminal e digite:
-```shell
+``` shell
 gcc -c pong.c
+
 gcc pong.o -o pong $(pkg-config --libs allegro-5.0 allegro_image-5.0 allegro_font-5.0 allegro_ttf-5.0 allegro_primitives-5.0) jogador.p
+
 ./pong
-´´´
+```
 
 ## Instruções de jogo1. Na tela inicial digite L para Login ou C para cadastro e pressione <Enter>;
 2. Para cadastrar, digite seu login, senha, nome e idade;
