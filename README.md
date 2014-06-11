@@ -80,7 +80,25 @@ char* encrypt(char* password);
 char* decrypt(char* password);
 ```
 
-  
+> Função que pede o login ou realiza cadastro, de acordo com a opção do usuário.
+Retorna o Player logado.
+
+``` c
+Player requireLogin();
+```
+
+> Função que procura o jogador na base de dados pelo seu login.
+Retorna o Player se econtrou, ou um Player vazio se não encontrou.
+
+``` c
+char* getPlayer(char* login);
+```
+
+> Função que percorre a base de dados conferindo se existe o player que está logando. Se existir verifica se a senha está correta. Retorna 1 se estiver ou -1 se o usuário não for encontrado ou a senha estiver incorreta.
+
+``` c
+int logIn(char* login, char* password);
+```
   
   
 
