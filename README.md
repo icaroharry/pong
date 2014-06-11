@@ -44,7 +44,8 @@ gcc pong.o -o pong $(pkg-config --libs allegro-5.0 allegro_image-5.0 allegro_fon
     - Para o nome digite apenas o primeiro nome, sem espaços.
 3. Para fazer login digite seu login e senha;
 4. Após a verificação do login, o jogo será iniciado.
-###Comandos
+	
+  > **Comandos**
   - Controle com as setas para cima e para baixo (UP and DOWN);
   - Para sacar, pressione espaço.
   
