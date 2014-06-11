@@ -11,8 +11,8 @@
 
 ##Ferramentas utilizadas
 
->- [Allegro 5](www.allegro.cc "Allegro 5")
-- [Sublime Text 3](www.sublimetext.com/3 "Sublime Text 3")
+>- [Allegro 5](http://www.allegro.cc "Allegro 5")
+- [Sublime Text 3](http://www.sublimetext.com/3 "Sublime Text 3")
 
 
 
