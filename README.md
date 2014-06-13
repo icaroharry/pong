@@ -53,7 +53,7 @@ gcc pong.o -o pong $(pkg-config --libs allegro-5.0 allegro_image-5.0 allegro_fon
   
   
   
-## Módulo ["jogador.h"](https://github.com/icaroharry/pong/jogador.h)
+## Módulo ["jogador.h"](https://github.com/icaroharry/pong/blob/master/jogador.c)
 > Struct que define um jogador.
 currentScore e currentDefenses são variáveis auxiliares para armazenar a pontuação do jogador durante o jogo.
 
